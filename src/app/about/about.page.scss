@@ -1,0 +1,16 @@
+ion-content{
+    .add{ padding: 0 16px;}
+    ion-list {background: transparent; padding: 0;
+      ion-item { display: flex;     --background: transparent;--inner-padding-end: 0px;
+        p{  font-size: 15px; line-height: 27px; width: 100%; display: flex;color:#212121;align-items: center;justify-content: space-between;
+          margin: 18px 0; font-weight:400 ;
+          span{ display: flex; color: #9E9E9E;
+  
+          }
+        }
+        ion-toggle{ padding: 0;}
+      }
+    }
+  
+  
+  }

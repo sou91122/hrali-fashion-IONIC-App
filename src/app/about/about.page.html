@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline" defaultHref="/tabs/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header">about</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="add">
+    <ion-list mode="md">
+      <ion-item routerLink="/about-inner" class="ion-no-padding">
+        <p> About Hrali Fashion <span> <ion-icon name="chevron-forward-outline"></ion-icon></span></p>
+      </ion-item>
+      <ion-item class="ion-no-padding" routerLink="/terms">
+        <p>  Terms & Conditions <span> <ion-icon name="chevron-forward-outline"></ion-icon></span></p>
+      </ion-item>
+      <ion-item class="ion-no-padding" routerLink="/privacy">
+        <p>Privacy Policy <span> <ion-icon name="chevron-forward-outline"></ion-icon></span></p>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

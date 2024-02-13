@@ -1,0 +1,57 @@
+<!-- <ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+      <ion-buttons slot="start" mode="ios">
+          <ion-back-button text="" name="chevron-back-outline" defaultHref="signup"></ion-back-button>
+      </ion-buttons>
+      <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+
+<ion-content>
+  <div class="top">
+      <div class="logo">
+          <img src="assets/images/logo.png" loading="lazy" alt=""/>
+          <!-- <h3>hrali fashion</h3> -->
+      </div>
+
+  </div>
+  <div class="bottom">
+      <div class="top1">
+          <h2>Log in</h2>
+      </div>
+      <div class="flex">
+          <ion-item class="ion-no-padding" lines="none">
+              <div class="as">
+                  <ion-label position="floating"> Email address</ion-label>
+                  <ion-input value="johndoe@gmail.com"></ion-input>
+              </div>
+          </ion-item>
+          <ion-item class="ion-no-padding" lines="none">
+              <div class="as">
+                  <ion-label position="floating"> Password</ion-label>
+                  <ion-icon name="eye-off-outline" slot="end"></ion-icon>
+                  <ion-input value="*********"></ion-input>
+              </div>
+          </ion-item>
+      </div>
+      <p routerLink="/forgot">Forgot Password?</p>
+      <div class="button-inner" style="text-align: center;" routerLink="/tabs/home">
+          <ion-button>Login</ion-button>
+      </div>
+      <div class="social-button">
+          <ion-button>
+              <img src="assets/images/facebook-icon.svg" loading="lazy" alt=""/>
+              Sign up using Facebook
+          </ion-button>
+          <ion-button style="color: #f34a38;">
+              <img src="assets/images/google-plus-icon.svg" loading="lazy" alt=""/>
+              Sign up using Google Plus
+          </ion-button>
+      </div>
+      <div class="sign">
+          Don't have an account? <span routerLink="/register"> Sign up</span>
+      </div>
+  </div>
+</ion-content>
+

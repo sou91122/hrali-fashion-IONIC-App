@@ -1,0 +1,28 @@
+.add{ padding: 16px 16px 0 16px;
+    .flex{  align-items: center; margin-bottom: 8px;
+      ion-item{  --background: transparent;--inner-padding-end: 0px;
+        .as{border: 1px solid #ccc; width: 100%; height: 48px; margin: 12px 0;border-radius: 4px; padding-left: 16px; }
+        ion-select{font-size: 15px; line-height: 22px ;--placeholder-color: #9E9E9E;--placeholder-opacity:1;
+          font-family: 'Open Sans', sans-serif; padding-left: 0;max-width: 96%;
+          ion-select-option{--placeholder-color:#000; font-size: 14px; line-height: 19px; }
+        }
+      }
+      ion-input{ width: 100%; margin-top: -23px; color: #212121; font-size: 16px; line-height: 22px; font-family: 'Open Sans', sans-serif;}
+      .label-floating{transform: translate3d(0,  64%,  0);font-family: 'Open Sans', sans-serif; padding: 0 3px; }
+      .item-has-value .label-floating{ transform: translate3d(0, -40%, 0) scale(0.75); background: #fff;  align-self: unset;
+        display: inline-block; color: #9E9E9E;  }
+      .item-has-focus .label-floating{ transform: translate3d(0, -40%, 0) scale(0.75); background: #fff;  align-self: unset;
+       display: inline-block;
+      }
+      //.label-floating{ padding-left: 15px;font-size: 14px;
+      //  font-weight: 400;    transform: translate3d(0, 162%, 0);
+      //  color: #000;}
+  
+    }
+  }
+  .buynow{ padding: 0px 16px 16px 16px; position: sticky; bottom: 0; width: 100%; z-index: 1;
+    ion-button{ height: 48px; font-size: 16px; line-height: 22px;font-weight: 600;font-family: 'Open Sans', sans-serif;
+      text-transform: capitalize; margin: 0;--border-radius: 5px;}
+  
+  }
+  

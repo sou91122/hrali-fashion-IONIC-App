@@ -1,0 +1,43 @@
+<ion-header class="ion-no-border">
+    <ion-toolbar >
+      <ion-buttons slot="start" mode="ios">
+        <ion-back-button text="" name="chevron-back-outline" defaultHref="login"></ion-back-button>
+      </ion-buttons>
+      <ion-title></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <div class="top">
+      <div class="logo">
+          <!-- <h3>hrali fashion</h3> -->
+          <img src="assets/images/logo.png" alt=""/>
+      </div>
+  </div>
+  <div class="bottom">
+      <div class="top1">
+          <h2>Sign up with</h2>
+      </div>
+      <div class="signbtn">
+          <ion-button routerLink="/register">Email</ion-button>
+      </div>
+
+      <div class="middle">
+          <span>OR</span>
+      </div>
+      <div class="social-button">
+          <ion-button>
+              <img src="assets/images/facebook-icon.svg" loading="lazy" alt=""/>
+              Sign up using Facebook
+          </ion-button>
+          <ion-button style="color: #f34a38;margin: 12px 0 20px;">
+              <img src="assets/images/google-plus-icon.svg" loading="lazy" alt=""/>
+              Sign up using Google Plus
+          </ion-button>
+      </div>
+      <div class="sign">
+          Already have an account? <span routerLink="/login"> Log in</span>
+      </div>
+  </div>
+</ion-content>
+

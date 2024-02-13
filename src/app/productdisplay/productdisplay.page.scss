@@ -1,0 +1,145 @@
+ion-header {
+    ion-title {
+      font-family: 'Montserrat', sans-serif;
+    }
+    ion-buttons {
+      margin-left: 10px;
+      font-size: 26px;
+    }
+    .btn-right {
+      margin-right: 18px;
+      img {
+        width: 20px;
+      }
+    }
+  }
+  .filter-wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    ul {
+      padding-left: 0;
+      background: #fff;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      box-shadow: 0 8px 15px -8px rgba(0, 0, 0, 0.46);
+      margin: 0 0 16px;
+      li {
+        list-style-type: none;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        ion-icon {
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .product-display {
+    margin-top: 60px;
+    .add {
+        padding: 11px;
+        float: left;
+        width: 100%;
+    
+        .product1 {
+          margin-bottom: 18px;
+          float: left;
+          width: 100%;
+    
+          ion-card {
+            padding: 0;
+            margin: 0px;
+            width: 100%;
+            background: #ffffff;
+            margin-bottom: 5px;
+          }
+    
+          .pro {
+            width: 100%;
+            height: 156px;
+            position: relative;
+    
+            img {
+              width: 100%;
+              height: 100%;
+              //object-fit: cover;
+              border-top-left-radius: 4px;
+              border-top-right-radius: 4px;
+              position: relative;
+            }
+    
+            ion-button {
+              width: 18px;
+              height: 18px;
+              --border-radius: 50%;
+              margin: 0;
+              --background: #fff;
+              position: absolute;
+              top: 8px;
+              right: 8px;
+              z-index: 1;
+              --box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.16);
+              --padding-start: 0;
+              --padding-end: 0;
+    
+              ion-icon {
+                line-height: 18px;
+                font-size: 13px;
+                color: #151515;
+              }
+            }
+    
+          }
+    
+          .pro-info {
+            padding: 8px 8px 8px;
+    
+            h3 {
+              font-size: 11px;
+              line-height: 18px;
+              color: #212121;
+              font-weight: 400;
+              margin: 0 0 6px 0;
+              text-align: left;
+              height: 36px;
+              overflow: hidden;
+              margin-bottom: 4px;
+            }
+    
+            label {
+              text-decoration: line-through;
+              font-size: 12px;
+              line-height: 20px;
+              color: #9E9E9E;
+              font-weight: 400;
+              display: flex;
+              margin-bottom: 3px;
+            }
+    
+            p {
+              margin: 0;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              svg{
+                fill: var(--ion-color-primary);
+                width: 15px;
+              }
+    
+              span {
+                font-size: 14px;
+                color: var(--ion-color-primary);
+                line-height: 20px;
+                font-weight: 400;
+              }
+    
+            }
+          }
+        }
+      }
+  }
+  

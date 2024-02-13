@@ -1,0 +1,7 @@
+{
+  "name": "hrali-fashion-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

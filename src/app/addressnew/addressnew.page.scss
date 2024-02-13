@@ -1,0 +1,22 @@
+ion-content {
+    .add {padding: 8px;
+      ion-card {margin: 2px 0 14px 0;padding: 8px; display: flex; justify-content: space-between;
+        .text { display: flex;
+          p {margin: 0 0 8px 0;font-size: 14px;line-height: 19px;color: #212121;font-family: 'Open Sans', sans-serif;font-weight: 400;}
+        }
+        ion-button{ margin: 0; color: #535353; --padding-start: 0;
+          --padding-end: 0;--background: transparent; }
+        ion-radio{margin: 0 14px 0 0px;--border-radius:50%;--border-width: 1px; width: 18px; height: 18px;
+          --color:var(--ion-color-primary);--background: #FEFAFA;}
+  
+      }
+    }
+  }
+  ion-footer{ padding:16px;
+    .buynow{
+      ion-button{ height: 48px; font-size: 16px; line-height: 22px;font-weight: 600;font-family: 'Open Sans', sans-serif;
+        text-transform: capitalize; margin: 0;--border-radius: 4px; }
+  
+    }
+  
+  }

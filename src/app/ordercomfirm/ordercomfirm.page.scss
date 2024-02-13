@@ -1,0 +1,77 @@
+ion-content{
+    .add{ padding: 16px 16px 0;
+      .address{ padding-bottom: 16px; border-bottom: 1px solid #9E9E9E; margin-bottom: 16px;
+        margin-bottom: 8px;
+        .address1{display: flex; align-items: center;
+          .text{ width: calc(100% - 16px);
+            p{ margin: 0 0 8px 0; font-size: 14px; line-height: 19px; color: #212121;font-family: 'Open Sans', sans-serif;
+              font-weight: 400; }
+  
+          }
+          .last{width: 16px;
+            ion-icon{color: #9E9E9E;}
+          }
+        }
+        ion-button{ --background:#fff; border: 1px solid #f4b528; height: 40px; line-height: 22px; font-size: 15px;
+          font-family: 'Open Sans', sans-serif; --box-shadow: none;
+          font-weight: 500; text-transform: capitalize; color: #f4b528; margin: 8px 0 0 0; border-radius: 4px;  }
+      }
+      .ship{ display: inline-block; width: 100%;
+    h3{ margin: 8px 0 16px 0; font-size: 16px; line-height: 21px;  color: #212121; font-weight: 600;font-family: 'Open Sans', sans-serif; }
+        ion-list{
+          ion-radio-group{
+            ion-item{ --min-height:35px ;
+              ion-label{display: flex;align-items: center;font-size: 14px;line-height: 21px; margin: 0;
+                font-weight: 400;color: #212121;font-family: 'Open Sans', sans-serif; font-weight: 400;}
+              ion-radio{margin: 0 14px 0 0px;--border-radius:50%;--border-width: 1px; width: 18px; height: 18px;
+                --color:var(--ion-color-primary);--background: #FEFAFA;}
+              img{ width: 18px; margin-right: 14px;}
+            }
+          }
+        }
+  
+  
+        ul{ padding: 0; margin: 0 0 30px;
+          li{ list-style: none; margin: 0 0 14px 0;
+            .flex{ display: flex; align-items: center; justify-content: space-between; align-items: center;
+              span{ display: flex;align-items: center;font-size: 14px;line-height: 21px;
+                font-weight: 400;color: #212121;font-family: 'Open Sans', sans-serif; font-weight: 400;
+                ion-checkbox{ margin-right: 14px;--border-radius:50%;--border-width: 1px;
+                  --border-color:var(--ion-color-primary);--background: #FEFAFA; }
+  
+              }
+  
+            }
+          }
+        }
+      }
+      .coupon{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px;
+      .first{ display: flex; align-items: center;color: #212121; font-size: 14px; line-height: 21px; font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        img{ margin-right: 14px; }
+  
+      }
+        .last{ display: flex; border: 1px solid #f4b528; height: 40px; border-radius: 4px; max-width: 164px; align-items: center;
+          ion-input{ font-size: 14px; line-height: 21px; color: #212121; font-family: 'Open Sans', sans-serif; font-weight: 400;
+            --placeholder-color:#212121;--placeholder-opacity:1; }
+          ion-button{ max-width: 60px;height: 40px; margin: 0;--border-radius: 5px;}
+        }
+      }
+      .price{ padding: 0; margin-bottom: 15px; display: flex;
+        .line{ position: relative; display: flex;width: 70%; overflow: hidden;
+          span{ font-size: 14px; color: #000000; line-height: 14px;font-family: 'Open Sans', sans-serif;
+            padding-right: 9px; position: relative; font-weight: 400; }
+  
+        }
+        h4{ text-align: right;font-size: 16px;color: #000000;line-height: 22px;margin: 0;width: 30%;
+          font-family: 'Open Sans', sans-serif;font-weight: 600;
+        }
+      }
+    }
+    .buynow{ padding: 0 16px 16px; position: sticky; bottom: 0; width: 100%; z-index: 1;
+      ion-button{ height: 48px; font-size: 16px; line-height: 22px;font-weight: 600;font-family: 'Open Sans', sans-serif;
+        text-transform: capitalize; margin: 0;--border-radius: 5px; }
+  
+    }
+  }
+  

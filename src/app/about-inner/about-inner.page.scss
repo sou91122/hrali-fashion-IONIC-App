@@ -1,0 +1,44 @@
+ion-content {
+    width: 100%;
+    position: relative;
+    h4 {
+      font-size: 14px;
+      text-transform: capitalize;
+      background-color: #c5c5c533;
+      padding: 7px 6px 7px 9px;
+      margin: 0;
+      border-radius: 5px;
+      color: #565555;
+      border-bottom: 2px solid #f4b528;
+      font-weight: 600;
+    }
+    .pic-area {
+      position: relative;
+      text-align: center;
+      margin: 15px 0 20px;
+      img {
+        width: 148px;
+      }
+    }
+    .content-area {
+      position: relative;
+      margin-top: 18px;
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+            font-size: 14px;
+          list-style-type: none;
+          margin-bottom: 7px;
+          svg {
+            width: 14px;
+            height: 14px;
+            margin-right: 5px;
+            vertical-align: middle;
+            fill: #eab02f;
+          }
+        }
+      }
+    }
+  }
+  

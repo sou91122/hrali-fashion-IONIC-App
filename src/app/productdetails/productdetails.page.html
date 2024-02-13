@@ -1,0 +1,272 @@
+<ion-content>
+  <div class="detailslider">
+    <div class="slider">
+      <ion-slides pager="true" [options]="slidefirst">
+        <ion-slide>
+          <div class="first-single" routerLink="/">
+            <img src="assets/images/product-3.jpg" alt="">
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="first-single" routerLink="/">
+            <img src="assets/images/product-3.jpg" alt="">
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="first-single" routerLink="/">
+            <img src="assets/images/product-3.jpg" alt="">
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="first-single" routerLink="/">
+            <img src="assets/images/product-3.jpg" alt="">
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </div>
+    <div class="top">
+      <ion-back-button mode="ios" text="" name="chevron-back-outline" defaultHref="tabs/home"></ion-back-button>
+      <ion-button><ion-icon name="share-social-outline"></ion-icon></ion-button>
+    </div>
+    <div class="bottom">
+      <div class="left">Daily Deal</div>
+      <ion-button><ion-icon name="heart-outline"></ion-icon></ion-button>
+    </div>
+  </div>
+  <div class="detail">
+    <ion-card>
+      <h2>Product Title Here</h2>
+      <div class="price">
+        <p>₹ 1500.00<span>₹ 800.00</span>
+        </p>
+        <div class="stock">
+          INSTOCK
+        </div>
+      </div>
+      <div class="deal">
+        <div class="one">Daily Deal ends in less than HH:MM:SS</div>
+      </div>
+
+    </ion-card>
+    <ion-card>
+      <div class="size">
+        <ion-item lines="none" class="ion-no-padding">
+          <label>Size</label>
+
+          <ion-select interface="action-sheet" placeholder="XXL" style="width: 80%;" mode="md">
+            <ion-select-option value="f">S</ion-select-option>
+            <ion-select-option value="m">M</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item lines="none" class="ion-no-padding">
+          <label>Color</label>
+          <ion-select interface="action-sheet" placeholder="Black" style="width:80%;" mode="md">
+            <ion-select-option value="f">Black</ion-select-option>
+            <ion-select-option value="m">Black</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </div>
+
+    </ion-card>
+    <ion-card>
+      <h3>Product Details</h3>
+      <ion-row>
+        <ion-col size="4"><p>Brand</p></ion-col>
+        <ion-col size="8"><h4>Raymond</h4></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="4"><p>Barcode</p></ion-col>
+        <ion-col size="8"><h4>659878458585432</h4></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="4"><p>SKU</p></ion-col>
+        <ion-col size="8"><h4>659878458585432</h4></ion-col>
+      </ion-row>
+
+    </ion-card>
+    <ion-card>
+      <h3> Details</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi, aut blanditiis consequuntur corporis deleniti dolorem eum ipsa laudantium libero maxime nihil nostrum, pariatur quae quasi quia totam, vero voluptatibus!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut corporis culpa dolorem facere ipsa minima, rem tempora ut veritatis.</p>
+    </ion-card>
+  </div>
+
+  <div class="info-wrapper description-block">
+    <div class="ion-padding">
+        <h5>Reviews (240)</h5>
+        <p class="rating">3.8/5.0
+            <span>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </span>
+        </p>
+        <div class="rate-individual">
+            <h6><span>C</span>Cecilia Craft</h6>
+            <small>16 jun 2019</small>
+            <p class="rating">
+                <span>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </span>
+            </p>
+            <p>Dolor sit amet consectetur.</p>
+        </div>
+        <div class="rate-individual">
+            <h6><span>L</span>Lillian Timmons</h6>
+            <small>10 jun 2019</small>
+            <p class="rating">
+                <span>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </span>
+            <p>Dolor sit amet consectetur.</p>
+        </div>
+        <div class="rate-individual">
+            <h6><span>H</span>Howard Law</h6>
+            <small>27 aug 2019</small>
+            <p class="rating">
+                <span>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </span>
+            <p>Dolor sit amet consectetur.</p>
+        </div>
+    </div>
+</div>
+
+  <h2 style="margin-top: 22px;">Similar Items<span>View All</span></h2>
+<div class="product">
+    <ion-slides pager="false" [options]="slidenew" style="padding:0 12px;">
+        <ion-slide routerLink="/productdetails">
+            <ion-card mode="md">
+                <div class="pro-box">
+                    <div class="photo">
+                        <ion-button>
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </ion-button>
+                        <img src="assets/images/product-1.jpg" loading="lazy" alt=""/>
+                    </div>
+                    <div class="pro-info">
+                        <h3>Product Title Here</h3>
+                        <div class="price1">
+                            <p>
+                              <label>₹ 4500.00</label>
+                              <p><span>₹ 1500.00</span>
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.982" height="16"
+                                 viewBox="0 0 18.982 16">
+                                <path id="Path_3942" data-name="Path 3942"
+                                      d="M-294.282,634.221h-6.439a2.534,2.534,0,0,1,1.591,1.069,2.277,2.277,0,0,1,.338,1.906,2.425,2.425,0,0,1-2.543,1.812,2.439,2.439,0,0,1-2.171-2.195,2.484,2.484,0,0,1,2-2.6h-.476a1.594,1.594,0,0,1-1.686-1.323q-.347-1.38-.692-2.758-.657-2.637-1.315-5.275c-.018-.072-.042-.142-.069-.238h-1.667a.809.809,0,0,1-.9-.79.82.82,0,0,1,.892-.807c.533-.006,1.067-.009,1.6,0a1.607,1.607,0,0,1,1.661,1.332c.687,2.742,1.373,5.483,2.064,8.243h9.179l1.516-5.57h-10.914l-.4-1.591h13.386c-.187.693-.372,1.38-.558,2.068-.483,1.78-.98,3.558-1.445,5.344a1.646,1.646,0,0,1-1.785,1.366c-.14-.01-.282,0-.465,0,1.5.508,2.238,1.516,2.035,2.728a2.4,2.4,0,0,1-2.433,2.068,2.415,2.415,0,0,1-2.316-2.087C-296.488,635.717-295.74,634.7-294.282,634.221Zm-6.037,2.4a.788.788,0,0,0-.78-.8.794.794,0,0,0-.815.795.788.788,0,0,0,.809.8A.781.781,0,0,0-300.319,636.62Zm7.2.007a.789.789,0,0,0-.774-.807.8.8,0,0,0-.821.788.789.789,0,0,0,.8.8A.781.781,0,0,0-293.124,636.627Z"
+                                      transform="translate(308.31 -623.016)"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </ion-card>
+        </ion-slide>
+        <ion-slide routerLink="/productdetails">
+            <ion-card mode="md">
+                <div class="pro-box">
+                    <div class="photo">
+                        <ion-button>
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </ion-button>
+                        <img src="assets/images/product-3.jpg" loading="lazy" alt=""/>
+                    </div>
+                    <div class="pro-info">
+                        <h3>Product Title Here</h3>
+                        <div class="price1">
+                            <p>
+                              <label>₹ 1500.00</label>
+                              <p><span>₹ 800.00</span>
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.982" height="16"
+                                 viewBox="0 0 18.982 16">
+                                <path id="Path_3942" data-name="Path 3942"
+                                      d="M-294.282,634.221h-6.439a2.534,2.534,0,0,1,1.591,1.069,2.277,2.277,0,0,1,.338,1.906,2.425,2.425,0,0,1-2.543,1.812,2.439,2.439,0,0,1-2.171-2.195,2.484,2.484,0,0,1,2-2.6h-.476a1.594,1.594,0,0,1-1.686-1.323q-.347-1.38-.692-2.758-.657-2.637-1.315-5.275c-.018-.072-.042-.142-.069-.238h-1.667a.809.809,0,0,1-.9-.79.82.82,0,0,1,.892-.807c.533-.006,1.067-.009,1.6,0a1.607,1.607,0,0,1,1.661,1.332c.687,2.742,1.373,5.483,2.064,8.243h9.179l1.516-5.57h-10.914l-.4-1.591h13.386c-.187.693-.372,1.38-.558,2.068-.483,1.78-.98,3.558-1.445,5.344a1.646,1.646,0,0,1-1.785,1.366c-.14-.01-.282,0-.465,0,1.5.508,2.238,1.516,2.035,2.728a2.4,2.4,0,0,1-2.433,2.068,2.415,2.415,0,0,1-2.316-2.087C-296.488,635.717-295.74,634.7-294.282,634.221Zm-6.037,2.4a.788.788,0,0,0-.78-.8.794.794,0,0,0-.815.795.788.788,0,0,0,.809.8A.781.781,0,0,0-300.319,636.62Zm7.2.007a.789.789,0,0,0-.774-.807.8.8,0,0,0-.821.788.789.789,0,0,0,.8.8A.781.781,0,0,0-293.124,636.627Z"
+                                      transform="translate(308.31 -623.016)"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </ion-card>
+        </ion-slide>
+        <ion-slide routerLink="/productdetails">
+            <ion-card mode="md">
+                <div class="pro-box">
+                    <div class="photo">
+                        <ion-button>
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </ion-button>
+                        <img src="assets/images/product-1.jpg" loading="lazy" alt=""/>
+                    </div>
+                    <div class="pro-info">
+                        <h3>Product Title Here</h3>
+                        <div class="price1">
+                            <p>
+                              <label>₹ 4500.00</label>
+                              <p><span>₹ 1500.00</span>
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.982" height="16"
+                                 viewBox="0 0 18.982 16">
+                                <path id="Path_3942" data-name="Path 3942"
+                                      d="M-294.282,634.221h-6.439a2.534,2.534,0,0,1,1.591,1.069,2.277,2.277,0,0,1,.338,1.906,2.425,2.425,0,0,1-2.543,1.812,2.439,2.439,0,0,1-2.171-2.195,2.484,2.484,0,0,1,2-2.6h-.476a1.594,1.594,0,0,1-1.686-1.323q-.347-1.38-.692-2.758-.657-2.637-1.315-5.275c-.018-.072-.042-.142-.069-.238h-1.667a.809.809,0,0,1-.9-.79.82.82,0,0,1,.892-.807c.533-.006,1.067-.009,1.6,0a1.607,1.607,0,0,1,1.661,1.332c.687,2.742,1.373,5.483,2.064,8.243h9.179l1.516-5.57h-10.914l-.4-1.591h13.386c-.187.693-.372,1.38-.558,2.068-.483,1.78-.98,3.558-1.445,5.344a1.646,1.646,0,0,1-1.785,1.366c-.14-.01-.282,0-.465,0,1.5.508,2.238,1.516,2.035,2.728a2.4,2.4,0,0,1-2.433,2.068,2.415,2.415,0,0,1-2.316-2.087C-296.488,635.717-295.74,634.7-294.282,634.221Zm-6.037,2.4a.788.788,0,0,0-.78-.8.794.794,0,0,0-.815.795.788.788,0,0,0,.809.8A.781.781,0,0,0-300.319,636.62Zm7.2.007a.789.789,0,0,0-.774-.807.8.8,0,0,0-.821.788.789.789,0,0,0,.8.8A.781.781,0,0,0-293.124,636.627Z"
+                                      transform="translate(308.31 -623.016)"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </ion-card>
+        </ion-slide>
+        <ion-slide routerLink="/productdetails">
+            <ion-card mode="md">
+                <div class="pro-box">
+                    <div class="photo">
+                        <ion-button>
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </ion-button>
+                        <img src="assets/images/product-3.jpg" loading="lazy" alt=""/>
+                    </div>
+                    <div class="pro-info">
+                        <h3>Product Title Here</h3>
+                        <div class="price1">
+                            <p>
+                              <label>₹ 1500.00</label>
+                              <p><span>₹ 800.00</span>
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.982" height="16"
+                                 viewBox="0 0 18.982 16">
+                                <path id="Path_3942" data-name="Path 3942"
+                                      d="M-294.282,634.221h-6.439a2.534,2.534,0,0,1,1.591,1.069,2.277,2.277,0,0,1,.338,1.906,2.425,2.425,0,0,1-2.543,1.812,2.439,2.439,0,0,1-2.171-2.195,2.484,2.484,0,0,1,2-2.6h-.476a1.594,1.594,0,0,1-1.686-1.323q-.347-1.38-.692-2.758-.657-2.637-1.315-5.275c-.018-.072-.042-.142-.069-.238h-1.667a.809.809,0,0,1-.9-.79.82.82,0,0,1,.892-.807c.533-.006,1.067-.009,1.6,0a1.607,1.607,0,0,1,1.661,1.332c.687,2.742,1.373,5.483,2.064,8.243h9.179l1.516-5.57h-10.914l-.4-1.591h13.386c-.187.693-.372,1.38-.558,2.068-.483,1.78-.98,3.558-1.445,5.344a1.646,1.646,0,0,1-1.785,1.366c-.14-.01-.282,0-.465,0,1.5.508,2.238,1.516,2.035,2.728a2.4,2.4,0,0,1-2.433,2.068,2.415,2.415,0,0,1-2.316-2.087C-296.488,635.717-295.74,634.7-294.282,634.221Zm-6.037,2.4a.788.788,0,0,0-.78-.8.794.794,0,0,0-.815.795.788.788,0,0,0,.809.8A.781.781,0,0,0-300.319,636.62Zm7.2.007a.789.789,0,0,0-.774-.807.8.8,0,0,0-.821.788.789.789,0,0,0,.8.8A.781.781,0,0,0-293.124,636.627Z"
+                                      transform="translate(308.31 -623.016)"/>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </ion-card>
+        </ion-slide>
+    </ion-slides>
+</div>
+  <div class="buynow">
+    <ion-button expand="block" mode="md" routerLink="/shoppingcart">
+      Add to Cart
+    </ion-button>
+  </div>
+</ion-content>
+

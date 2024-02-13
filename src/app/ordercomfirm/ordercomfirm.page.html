@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline" defaultHref="shoppingcart"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header">Order Confirmation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="add">
+    <div class="address">
+      <div class="address1">
+        <div class="text">
+          <div routerLink="/addressnew">
+            <p>John Doe</p>
+            <p>Block: 1, Street:3, House/Building No: 4</p>
+            <p>Zakir Hussian Road, Kanpur, India</p>
+          </div>
+
+        </div>
+        <div class="last">
+          <img src="assets/images/orderrightarrow.svg" loading="lazy" alt=""/>
+        </div>
+      </div>
+
+      <ion-button routerLink="/addressnew">Change Address </ion-button>
+    </div>
+    <div class="ship">
+    <h3>Shipping Method</h3>
+      <ion-list mode="md" class="ion-no-padding">
+        <ion-radio-group>
+          <ion-item class="ion-no-padding" lines="none">
+            <ion-label>Delivery Charge - ₹ 250.00</ion-label>
+            <ion-radio value="deli" slot="start"></ion-radio>
+          </ion-item>
+
+          <ion-item class="ion-no-padding" lines="none">
+            <ion-label>Pickup from Store - ₹ 150.00</ion-label>
+            <ion-radio value="pick" slot="start"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+      <h3>Payment Method</h3>
+      <ion-list mode="md" class="ion-no-padding">
+        <ion-radio-group>
+          <ion-item class="ion-no-padding" lines="none">
+            <img src="assets/images/cod.png"/>
+            <ion-label>Cash On Delivery</ion-label>
+            <ion-radio value="cod" slot="start"></ion-radio>
+          </ion-item>
+
+          <ion-item class="ion-no-padding" lines="none">
+            <img src="assets/images/rupay-card.png">
+            <ion-label>Rupay Card</ion-label>
+            <ion-radio value="kn" slot="start"></ion-radio>
+          </ion-item>
+          <ion-item class="ion-no-padding" lines="none">
+            <img src="assets/images/visa.png">
+            <ion-label>Visa / Master card</ion-label>
+            <ion-radio value="vi" slot="start"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+
+      <h3>Discount</h3>
+      <div class="coupon">
+      <div class="first">
+        <img src="assets/images/coupon.svg">
+        Coupon Code
+      </div>
+        <div class="last">
+          <ion-input placeholder="" value="HF5685"></ion-input>
+          <ion-button mode="md"><ion-icon name="checkmark-outline"></ion-icon></ion-button>
+        </div>
+      </div>
+      <h3>Discount</h3>
+      <div class="price">
+       <div class="line">
+         <span>Sub Total</span>
+        </div>
+        <h4>₹ 1500.00</h4>
+      </div>
+      <div class="price">
+      <div class="line">
+        <span>Delivery Charge</span>
+      </div>
+      <h4>₹ 150.00</h4>
+    </div>
+      <!-- <div class="price">
+        <div class="line">
+          <span>Delivery Charge</span>
+        </div>
+        <h4 style="color: var(--ion-color-primary) ;">₹ 12.000</h4>
+      </div> -->
+    </div>
+  </div>
+   <div class="buynow">
+            <ion-button class="full" expand="block" routerLink="/payment" mode="md">
+              Confirm Order
+            </ion-button>
+          </div>
+</ion-content>

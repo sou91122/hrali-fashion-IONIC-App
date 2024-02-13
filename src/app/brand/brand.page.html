@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline" defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header">brands</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <img src="https://i.pinimg.com/originals/db/48/aa/db48aaae1418643d2288ccf4ce6da043.jpg" loading="lazy" alt="" class="img-banner">
+
+  <div class="wrapper">
+    <h4>Top Brands</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, voluptas, voluptates. Eveniet id laudantium quia sed tempora unde ut vero.</p>
+  </div>
+
+  <div class="ion-padding">
+    <ion-row>
+      <ion-col size="3" *ngFor="let n of brand" (click)="productdisplay()">
+        <div class="brand-list">
+          <img src="assets/images/{{n.image}}" alt="">
+          <h5>{{n.BrandName}}</h5>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

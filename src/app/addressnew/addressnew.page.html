@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline" defaultHref="ordercomfirm"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header">Addresses</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="add">
+    <ion-card mode="md">
+
+      <div class="text">
+
+          <ion-radio-group>
+            <ion-radio slot="start" ></ion-radio>
+          </ion-radio-group>
+
+        <div routerLink="/addressnew">
+          <p>John Doe</p>
+          <p>Block: 1, Street:3, House/Building No: 4</p>
+          <p>Zakir Hussian Road, Kanpur, India</p>
+        </div>
+
+      </div>
+      <ion-button fill="clear" (click)="menu($event)">
+        <ion-icon name="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-card>
+    <ion-card mode="md">
+
+      <div class="text">
+
+          <ion-radio-group>
+            <ion-radio slot="start" ></ion-radio>
+          </ion-radio-group>
+
+        <div routerLink="/addressnew">
+          <p>John Doe</p>
+          <p>Block: 1, Street:3, House/Building No: 4</p>
+          <p>Zakir Hussian Road, Kanpur, India</p>
+        </div>
+
+      </div>
+      <ion-button fill="clear" (click)="menu($event)">
+        <ion-icon name="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+  </div>
+
+
+
+</ion-content>
+<ion-footer mode="ios">
+
+  <div class="buynow">
+    <ion-button class="full" expand="block" routerLink="/editaddress" mode="md">
+      Add Address
+    </ion-button>
+  </div>
+</ion-footer>

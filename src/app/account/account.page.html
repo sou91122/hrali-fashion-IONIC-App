@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back-outline" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header">my account</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="main-inner">
+    <div class="bg-area"></div>
+    <div class="profile-area">
+      <div class="avatar-img">
+        <ion-avatar>
+          <img src="assets/images/user-pic.png" loading="lazy" alt="" />
+        </ion-avatar>
+      </div>
+      <div class="camera-icon">
+        <ion-button>
+          <ion-icon name="camera"></ion-icon>
+        </ion-button>
+      </div>
+    </div>
+  </div>
+  <div class="ion-padding">
+    <div class="add">
+      <div class="flex">
+        <ion-item class="ion-no-padding" lines="none">
+          <div class="as">
+            <ion-label position="floating">First Name</ion-label>
+            <ion-input value="John"></ion-input>
+          </div>
+        </ion-item>
+        <ion-item class="ion-no-padding" lines="none">
+          <div class="as">
+            <ion-label position="floating">Last Name</ion-label>
+            <ion-input value="Doe"></ion-input>
+          </div>
+        </ion-item>
+        <ion-item class="ion-no-padding" lines="none">
+          <div class="as">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input value="johndoe@gmail.com"></ion-input>
+          </div>
+        </ion-item>
+        <ion-item class="ion-no-padding" lines="none">
+          <div class="as">
+            <ion-label position="floating">Mobile Number</ion-label>
+            <ion-input value="9434145869"></ion-input>
+          </div>
+        </ion-item>
+        <ion-item class="ion-no-padding" lines="none">
+          <p>  Join our mailing list <span> <ion-toggle checked slot="end" mode="ios"></ion-toggle></span></p>
+        </ion-item>
+        <div class="button-area">
+          <!-- <ion-button>save</ion-button> -->
+          <ion-button expand="block" mode="md">
+            save
+          </ion-button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
